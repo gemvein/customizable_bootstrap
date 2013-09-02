@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/nerakdon/customizable_bootstrap"
   gem.license = "MIT"
   gem.summary = %Q{Designed to get you up and running with a customizable version of boostrap using SASS.}
-  gem.description = %Q{Designed to get you up and running with a customizable version of boostrap using SASS.}
+  gem.description = %Q{Customizable bootstrap is designed to get you up and running with a customizable version of boostrap using SASS.}
   gem.email = "webmaster@sourcherryweb.com"
   gem.authors = ["Karen Lundgren"]
   # dependencies defined in Gemfile
