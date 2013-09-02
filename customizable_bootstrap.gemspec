@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Karen Lundgren"]
   s.date = "2013-09-02"
-  s.description = "TODO: longer description of your gem"
-  s.email = "karen.e.lundgren@gmail.com"
+  s.description = "Designed to get you up and running with a customizable version of boostrap using SASS."
+  s.email = "webmaster@sourcherryweb.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -76,22 +76,13 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.7"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Designed to get you up and running with a customizable version of boostrap using SASS."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<customizable_bootstrap>, [">= 0"])
-      s.add_development_dependency(%q<rails>, ["= 3.2.14"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_development_dependency(%q<capybara>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.8.7"])
-      s.add_development_dependency(%q<puma>, [">= 0"])
       s.add_development_dependency(%q<rails>, ["= 3.2.14"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<rspec-rails>, [">= 0"])
@@ -131,28 +122,10 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, ["~> 1.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.7"])
       s.add_dependency(%q<puma>, [">= 0"])
-      s.add_dependency(%q<rails>, ["= 3.2.14"])
-      s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_dependency(%q<capybara>, [">= 0"])
-      s.add_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_dependency(%q<jeweler>, ["~> 1.8.7"])
-      s.add_dependency(%q<puma>, [">= 0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
     end
   else
     s.add_dependency(%q<customizable_bootstrap>, [">= 0"])
-    s.add_dependency(%q<rails>, ["= 3.2.14"])
-    s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<rspec-rails>, [">= 0"])
-    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-    s.add_dependency(%q<capybara>, [">= 0"])
-    s.add_dependency(%q<rdoc>, ["~> 3.12"])
-    s.add_dependency(%q<bundler>, ["~> 1.0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.8.7"])
-    s.add_dependency(%q<puma>, [">= 0"])
     s.add_dependency(%q<rails>, ["= 3.2.14"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<rspec-rails>, [">= 0"])
