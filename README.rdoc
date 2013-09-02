@@ -1,8 +1,35 @@
-= customizable_bootstrap
+= Customizable Bootstrap
 
-Description goes here.
+Designed to get you up and running with a customizable version of boostrap using SASS.
 
-== Contributing to customizable_bootstrap
+== Installation
+
+Install the gem:
+
+    gem customizable_bootstrap
+
+Run the generator:
+
+    rails g customizable_bootstrap
+
+Add the following to your application.css file:
+
+    @import 'customizable_bootstrap';
+
+Put this in your application.js file, below jquery:
+
+    //= require 'customizable_bootstrap'
+
+== Recommended additions
+
+I recommend adding the following awesome gems to get the most out of your bootstrap experience:
+
+    gem font-awesome-sass-rails              # A whole bunch of cool icons
+    gem bootstrap_forms                      # Automatically build the semantic forms bootstrap expects
+    gem breadcrumbs_on_rails                 # Generate breadcrumbs
+    gem jquery-ui-bootstrap-rails-asset      # Integrates bootstrap's ui into jquery-ui behaviors
+
+== Contributing to Customizable Bootstrap
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
@@ -14,6 +41,5 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2013 Karen Lundgren. See LICENSE.txt for
-further details.
+Copyright (c) 2013 Sour Cherry Web. See LICENSE.txt for further details.
 

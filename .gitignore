@@ -1,3 +1,9 @@
+.idea
+*.log
+Gemfile.lock
+tmp
+*.pid
+
 # rcov generated
 coverage
 coverage.data
