@@ -17,4 +17,7 @@ group :development, :test do
   gem 'puma'
 end
 
+gem 'sass-rails'
+gem 'bootstrap-sass'
+
 gemspec
