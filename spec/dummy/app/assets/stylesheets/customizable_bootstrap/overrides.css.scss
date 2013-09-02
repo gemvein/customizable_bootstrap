@@ -1,0 +1,27 @@
+// These rules override those given within bootstrap. They can use
+// mixins and variables.
+
+body {
+  padding-top: 60px;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-all, .clear-both {
+  clear: both;
+}
+
+.relative {
+  position: relative;
+}
+
+object, embed, video {
+  max-width: 100%;
+  height: auto;
+}
