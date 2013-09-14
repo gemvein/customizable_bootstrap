@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 #   gem 'activesupport', '>= 2.3.5'
 
 gem 'rails'
+gem 'sass-rails'
+gem 'bootstrap-sass'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
@@ -16,8 +18,5 @@ group :development, :test do
   gem 'bundler'
   gem 'jeweler'
 end
-
-gem 'sass-rails'
-gem 'bootstrap-sass'
 
 gemspec
