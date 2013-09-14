@@ -3,6 +3,7 @@
 Gemfile.lock
 tmp
 *.pid
+*.gem
 
 # rcov generated
 coverage
