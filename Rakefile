@@ -12,6 +12,9 @@ end
 require 'rake'
 
 require 'jeweler'
+
+version = File.exist?('VERSION') ? File.read('VERSION') : ""
+
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "customizable_bootstrap"
@@ -21,6 +24,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Customizable bootstrap is designed to get you up and running with a customizable version of boostrap using SASS.}
   gem.email = "webmaster@sourcherryweb.com"
   gem.authors = ["Karen Lundgren"]
+  gem.version = version
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
