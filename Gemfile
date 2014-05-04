@@ -3,9 +3,9 @@ source 'http://rubygems.org'
 # Example:
 #   gem 'activesupport', '>= 2.3.5'
 
-gem 'rails', '4.1'
+gem 'rails', '>= 4.1'
 gem 'sass-rails', '>= 3.2'
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '>= 3.1.1'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
