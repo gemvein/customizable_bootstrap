@@ -6,12 +6,11 @@ module CustomizableBootstrap
     
     def hello
       output "Welcome to the Customizable Bootstrap gem's installation process.", :magenta
-      output "This installs sass variable files you can modify to customize the appearance of your Bootstrap installation.", :magenta
-    end
+      end
     
     # all public methods in here will be run in order
     def copy_template_files
-      output "What you need are some files to customize", :magenta
+      output "This installs sass variable files you can modify to customize the appearance of your Bootstrap installation.", :magenta
       template "stylesheets/colors.css.scss", "app/assets/stylesheets/customizable_bootstrap/colors.css.scss"
       template "stylesheets/font.css.scss", "app/assets/stylesheets/customizable_bootstrap/font.css.scss"
       template "stylesheets/spacing.css.scss", "app/assets/stylesheets/customizable_bootstrap/spacing.css.scss"
