@@ -47,10 +47,9 @@ Gem::Specification.new do |s|
     "spec/dummy/app/assets/stylesheets/application.css.scss",
     "spec/dummy/app/assets/stylesheets/customizable_bootstrap/colors.css.scss",
     "spec/dummy/app/assets/stylesheets/customizable_bootstrap/font.css.scss",
-    "spec/dummy/app/assets/stylesheets/customizable_bootstrap/grid.css.scss",
     "spec/dummy/app/assets/stylesheets/customizable_bootstrap/index.css.scss",
-    "spec/dummy/app/assets/stylesheets/customizable_bootstrap/layers.css.scss",
     "spec/dummy/app/assets/stylesheets/customizable_bootstrap/overrides.css.scss",
+    "spec/dummy/app/assets/stylesheets/customizable_bootstrap/spacing.css.scss",
     "spec/dummy/app/assets/stylesheets/scaffolds.css.scss",
     "spec/dummy/config.ru",
     "spec/dummy/config/application.rb",
@@ -86,6 +85,20 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<sass-rails>, [">= 0"])
       s.add_runtime_dependency(%q<bootstrap-sass>, [">= 0"])
       s.add_runtime_dependency(%q<customizable_bootstrap>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [">= 0"])
+      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
+      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
+      s.add_development_dependency(%q<rdoc>, [">= 0"])
+      s.add_development_dependency(%q<bundler>, [">= 0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [">= 0"])
+      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
+      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
+      s.add_development_dependency(%q<rdoc>, [">= 0"])
+      s.add_development_dependency(%q<bundler>, [">= 0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<rspec-rails>, [">= 0"])
       s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
@@ -175,12 +188,40 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<rspec>, [">= 0"])
+      s.add_dependency(%q<rspec-rails>, [">= 0"])
+      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
+      s.add_dependency(%q<rdoc>, [">= 0"])
+      s.add_dependency(%q<bundler>, [">= 0"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<rspec>, [">= 0"])
+      s.add_dependency(%q<rspec-rails>, [">= 0"])
+      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
+      s.add_dependency(%q<rdoc>, [">= 0"])
+      s.add_dependency(%q<bundler>, [">= 0"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
     end
   else
     s.add_dependency(%q<rails>, [">= 0"])
     s.add_dependency(%q<sass-rails>, [">= 0"])
     s.add_dependency(%q<bootstrap-sass>, [">= 0"])
     s.add_dependency(%q<customizable_bootstrap>, [">= 0"])
+    s.add_dependency(%q<rspec>, [">= 0"])
+    s.add_dependency(%q<rspec-rails>, [">= 0"])
+    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
+    s.add_dependency(%q<rdoc>, [">= 0"])
+    s.add_dependency(%q<bundler>, [">= 0"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<rspec>, [">= 0"])
+    s.add_dependency(%q<rspec-rails>, [">= 0"])
+    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
+    s.add_dependency(%q<rdoc>, [">= 0"])
+    s.add_dependency(%q<bundler>, [">= 0"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<rspec-rails>, [">= 0"])
     s.add_dependency(%q<shoulda-matchers>, [">= 0"])
