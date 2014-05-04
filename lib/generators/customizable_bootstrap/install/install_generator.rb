@@ -5,7 +5,8 @@ module CustomizableBootstrap
     include Generators::Utils
     
     def hello
-      output "Welcome to the Customizable Bootstrap gem's installation process. In short, this provides you with sass variables you can modify to customize the appearance of your Bootstrap installation.", :magenta
+      output "Welcome to the Customizable Bootstrap gem's installation process.", :magenta
+      output "This installs sass variable files you can modify to customize the appearance of your Bootstrap installation.", :magenta
     end
     
     # all public methods in here will be run in order
