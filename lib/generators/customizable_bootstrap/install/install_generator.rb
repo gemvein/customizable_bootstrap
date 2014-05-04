@@ -5,7 +5,7 @@ module CustomizableBootstrap
     include Generators::Utils
     
     def hello
-      output "Welcome to the Customizable Bootstrap gem's installation process.", :magenta
+      output "Welcome to the Customizable Bootstrap gem's installation process. In short, this provides you with sass variables you can modify to customize the appearance of your Bootstrap installation.", :magenta
     end
     
     # all public methods in here will be run in order
@@ -13,9 +13,8 @@ module CustomizableBootstrap
       output "What you need are some files to customize", :magenta
       template "stylesheets/colors.css.scss", "app/assets/stylesheets/customizable_bootstrap/colors.css.scss"
       template "stylesheets/font.css.scss", "app/assets/stylesheets/customizable_bootstrap/font.css.scss"
-      template "stylesheets/grid.css.scss", "app/assets/stylesheets/customizable_bootstrap/grid.css.scss"
+      template "stylesheets/spacing.css.scss", "app/assets/stylesheets/customizable_bootstrap/spacing.css.scss"
       template "stylesheets/index.css.scss", "app/assets/stylesheets/customizable_bootstrap/index.css.scss"
-      template "stylesheets/layers.css.scss", "app/assets/stylesheets/customizable_bootstrap/layers.css.scss"
       template "stylesheets/overrides.css.scss", "app/assets/stylesheets/customizable_bootstrap/overrides.css.scss"
       template "javascripts/index.js", "app/assets/javascripts/customizable_bootstrap/index.js"
     end
