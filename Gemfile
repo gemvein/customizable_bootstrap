@@ -5,11 +5,11 @@ source 'http://rubygems.org'
 
 gem 'rails', '>= 4.1'
 gem 'sass-rails', '>= 3.2'
-gem 'bootstrap-sass', '>= 3.1.1'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
-group :development, :test do
+group :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'shoulda-matchers'

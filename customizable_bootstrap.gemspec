@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Karen Lundgren"]
-  s.date = "2014-05-04"
+  s.date = "2014-05-05"
   s.description = "Customizable bootstrap is designed to get you up and running with a customizable version of boostrap using SASS."
   s.email = "webmaster@sourcherryweb.com"
   s.extra_rdoc_files = [
@@ -81,63 +81,21 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rails>, [">= 0"])
-      s.add_runtime_dependency(%q<sass-rails>, [">= 0"])
-      s.add_runtime_dependency(%q<bootstrap-sass>, [">= 0"])
+      s.add_runtime_dependency(%q<rails>, [">= 4.1"])
+      s.add_runtime_dependency(%q<sass-rails>, [">= 3.2"])
+      s.add_runtime_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
       s.add_runtime_dependency(%q<customizable_bootstrap>, [">= 0"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_development_dependency(%q<capybara>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_development_dependency(%q<capybara>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, [">= 0"])
     else
-      s.add_dependency(%q<rails>, [">= 0"])
-      s.add_dependency(%q<sass-rails>, [">= 0"])
-      s.add_dependency(%q<bootstrap-sass>, [">= 0"])
+      s.add_dependency(%q<rails>, [">= 4.1"])
+      s.add_dependency(%q<sass-rails>, [">= 3.2"])
+      s.add_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
       s.add_dependency(%q<customizable_bootstrap>, [">= 0"])
-      s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_dependency(%q<capybara>, [">= 0"])
-      s.add_dependency(%q<rdoc>, [">= 0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<rspec-rails>, [">= 0"])
-      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-      s.add_dependency(%q<capybara>, [">= 0"])
-      s.add_dependency(%q<rdoc>, [">= 0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rails>, [">= 0"])
-    s.add_dependency(%q<sass-rails>, [">= 0"])
-    s.add_dependency(%q<bootstrap-sass>, [">= 0"])
+    s.add_dependency(%q<rails>, [">= 4.1"])
+    s.add_dependency(%q<sass-rails>, [">= 3.2"])
+    s.add_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
     s.add_dependency(%q<customizable_bootstrap>, [">= 0"])
-    s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<rspec-rails>, [">= 0"])
-    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-    s.add_dependency(%q<capybara>, [">= 0"])
-    s.add_dependency(%q<rdoc>, [">= 0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<rspec-rails>, [">= 0"])
-    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
-    s.add_dependency(%q<capybara>, [">= 0"])
-    s.add_dependency(%q<rdoc>, [">= 0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, [">= 0"])
   end
 end
 
