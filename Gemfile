@@ -14,9 +14,6 @@ group :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'capybara'
-  gem 'rdoc'
-  gem 'bundler'
-  gem 'jeweler'
 end
 
 gemspec

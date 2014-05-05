@@ -10,9 +10,11 @@ $border-radius-small: 3px;
 $line-height-large: 1.33;
 $line-height-small: 1.5;
 
-$input-height-base: ($line-height-computed + ($padding-base-vertical * 2) + 2);
-$input-height-large: (floor($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2);
-$input-height-small: (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2);
+
+$input-border-radius: $border-radius-base;
+$input-height-base: ($line-height-large + ($padding-base-vertical * 2) + 2);
+$input-height-large: (floor($padding-large-horizontal * $line-height-large) + ($padding-large-vertical * 2) + 2);
+$input-height-small: (floor($padding-small-horizontal * $line-height-small) + ($padding-small-vertical * 2) + 2);
 
 $table-cell-padding: 8px;
 $table-condensed-cell-padding: 5px;
@@ -20,11 +22,11 @@ $table-cell-padding: 8px;
 $table-condensed-cell-padding: 5px;
 
 $navbar-height: 50px;
-$navbar-margin-bottom: $line-height-computed;
+$navbar-margin-bottom: $line-height-large;
 
 $navbar-border-radius: $border-radius-base;
-$navbar-padding-horizontal: floor($grid-gutter-width / 2);
-$navbar-padding-vertical: (($navbar-height - $line-height-computed) / 2);
+$navbar-padding-horizontal: $padding-base-horizontal;
+$navbar-padding-vertical: (($navbar-height - $line-height-large) / 2);
 
 $nav-link-padding: 10px 15px;
 
