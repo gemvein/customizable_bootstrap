@@ -4,6 +4,5 @@ module CustomizableBootstrap
   require 'customizable_bootstrap/railtie'
   require 'customizable_bootstrap/version'
 
-  require 'sass-rails'
   require 'bootstrap-sass'
 end
