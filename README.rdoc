@@ -2,7 +2,7 @@
 
 {<img src="https://travis-ci.org/nerakdon/customizable_bootstrap.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/nerakdon/customizable_bootstrap]
 
-Designed to get you up and running with a customizable version of boostrap using SASS.
+Designed to get you up and running with a customizable version of Bootstrap using SASS.
 
 This is essentially a wrapper for bootstrap-sass with the addition of sass variables adapted from Bootstrap Magic.
 
