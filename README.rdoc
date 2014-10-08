@@ -1,6 +1,8 @@
 = Customizable Bootstrap
 
-{<img src="https://travis-ci.org/nerakdon/customizable_bootstrap.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/nerakdon/customizable_bootstrap]
+{<img src="https://badge.fury.io/rb/customizable_bootstrap.svg" alt="Gem Version" />}[http://badge.fury.io/rb/customizable_bootstrap]
+{<img src="https://travis-ci.org/gemvein/customizable_bootstrap.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/gemvein/customizable_bootstrap]
+{<img src="https://coveralls.io/repos/gemvein/customizable_bootstrap/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/gemvein/customizable_bootstrap]
 
 Designed to get you up and running with a customizable version of Bootstrap using SASS.
 
@@ -45,5 +47,5 @@ I recommend adding the following awesome gems to get the most out of your bootst
 
 == Copyright
 
-Copyright (c) 2013-2014 Sour Cherry Web. See LICENSE.txt for further details.
+Copyright (c) 2013-2014 Gem Vein. See LICENSE.txt for further details.
 
