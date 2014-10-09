@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "customizable_bootstrap"
-  s.version = "0.11.0"
+  s.version = "0.11.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Karen Lundgren"]
-  s.date = "2014-10-08"
+  s.date = "2014-10-09"
   s.description = "Customizable bootstrap is designed to get you up and running with a customizable version of boostrap using SASS."
   s.email = "karen.e.lundgren@gmail.com"
   s.extra_rdoc_files = [
