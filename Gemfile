@@ -5,5 +5,6 @@ source 'http://rubygems.org'
 
 gem 'rails', '>= 4.1'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'coveralls', require: false, group: :test
 
 gemspec
